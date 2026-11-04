@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /_herramientas/
+
+# TODO: con el dominio definitivo, crear sitemap.xml y activar esta línea:
+# Sitemap: https://DOMINIO/sitemap.xml

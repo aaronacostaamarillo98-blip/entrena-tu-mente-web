@@ -1,0 +1,22 @@
+# Cloudflare Pages: cabeceras de seguridad y caché.
+# CSS y JS llevan ?v=AAAAMMDD en el HTML: al cambiarlos, subir esa versión.
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+/css/*
+  Cache-Control: public, max-age=2592000
+
+/js/*
+  Cache-Control: public, max-age=2592000
+
+/data/*
+  Cache-Control: public, max-age=3600
+
+/img/*
+  Cache-Control: public, max-age=2592000
+
+/TODO.md
+  X-Robots-Tag: noindex
